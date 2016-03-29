@@ -22,5 +22,6 @@ setup(
     download_url="http://github.com/nicferrier/lxmlproc/downloads",
     platforms = ["any"],
     scripts=['src/lxmlproc'],
+    install_requires=['lxml'],
     classifiers =  classifiers
     )
